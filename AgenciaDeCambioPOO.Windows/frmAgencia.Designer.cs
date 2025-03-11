@@ -53,6 +53,9 @@
             Cotización = new DataGridViewTextBoxColumn();
             colCantidad = new DataGridViewTextBoxColumn();
             colTotal = new DataGridViewTextBoxColumn();
+            tsbDevaluar = new ToolStripButton();
+            toolStripSeparator3 = new ToolStripSeparator();
+            tsbSalir = new ToolStripButton();
             toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -64,7 +67,7 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { tsbCompra, tsbVenta, toolStripSeparator1, tsbNuevaDivisa, tsbActualizar, toolStripSeparator2 });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { tsbCompra, tsbVenta, toolStripSeparator1, tsbNuevaDivisa, tsbActualizar, toolStripSeparator2, tsbDevaluar, toolStripSeparator3, tsbSalir });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(982, 70);
@@ -252,6 +255,31 @@
             colTotal.Name = "colTotal";
             colTotal.ReadOnly = true;
             // 
+            // tsbDevaluar
+            // 
+            tsbDevaluar.Image = Properties.Resources.downloading_updates_48px;
+            tsbDevaluar.ImageScaling = ToolStripItemImageScaling.None;
+            tsbDevaluar.ImageTransparentColor = Color.Magenta;
+            tsbDevaluar.Name = "tsbDevaluar";
+            tsbDevaluar.Size = new Size(57, 67);
+            tsbDevaluar.Text = "Devaluar";
+            tsbDevaluar.TextImageRelation = TextImageRelation.ImageAboveText;
+            // 
+            // toolStripSeparator3
+            // 
+            toolStripSeparator3.Name = "toolStripSeparator3";
+            toolStripSeparator3.Size = new Size(6, 70);
+            // 
+            // tsbSalir
+            // 
+            tsbSalir.Image = Properties.Resources.shutdown_48px;
+            tsbSalir.ImageScaling = ToolStripItemImageScaling.None;
+            tsbSalir.ImageTransparentColor = Color.Magenta;
+            tsbSalir.Name = "tsbSalir";
+            tsbSalir.Size = new Size(52, 67);
+            tsbSalir.Text = "Salir";
+            tsbSalir.TextImageRelation = TextImageRelation.ImageAboveText;
+            // 
             // frmAgencia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -297,5 +325,8 @@
         private DataGridViewTextBoxColumn colCantidadDivisa;
         private DataGridViewTextBoxColumn colPrecioCompra;
         private DataGridViewTextBoxColumn colPrecioVenta;
+        private ToolStripButton tsbDevaluar;
+        private ToolStripSeparator toolStripSeparator3;
+        private ToolStripButton tsbSalir;
     }
 }

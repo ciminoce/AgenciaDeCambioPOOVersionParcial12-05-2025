@@ -53,7 +53,7 @@
             btnCancelar.Location = new Point(263, 195);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(75, 47);
-            btnCancelar.TabIndex = 13;
+            btnCancelar.TabIndex = 3;
             btnCancelar.Text = "Cancelar";
             btnCancelar.TextAlign = ContentAlignment.BottomCenter;
             btnCancelar.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             btnOK.Location = new Point(35, 195);
             btnOK.Name = "btnOK";
             btnOK.Size = new Size(75, 47);
-            btnOK.TabIndex = 14;
+            btnOK.TabIndex = 2;
             btnOK.Text = "OK";
             btnOK.TextAlign = ContentAlignment.BottomCenter;
             btnOK.UseVisualStyleBackColor = true;
@@ -76,7 +76,7 @@
             txtCantidad.Name = "txtCantidad";
             txtCantidad.ReadOnly = true;
             txtCantidad.Size = new Size(71, 23);
-            txtCantidad.TabIndex = 8;
+            txtCantidad.TabIndex = 1;
             // 
             // label5
             // 
@@ -92,7 +92,7 @@
             txtVenta.Location = new Point(110, 119);
             txtVenta.Name = "txtVenta";
             txtVenta.Size = new Size(71, 23);
-            txtVenta.TabIndex = 9;
+            txtVenta.TabIndex = 0;
             // 
             // label4
             // 
@@ -163,6 +163,7 @@
             txtDivisa.Enabled = false;
             txtDivisa.Location = new Point(110, 32);
             txtDivisa.Name = "txtDivisa";
+            txtDivisa.ReadOnly = true;
             txtDivisa.Size = new Size(196, 23);
             txtDivisa.TabIndex = 16;
             txtDivisa.Visible = false;
